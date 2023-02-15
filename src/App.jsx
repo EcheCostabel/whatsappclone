@@ -52,7 +52,7 @@ function App() {
           <div className="p-4 flex items-center gap-4 hover:bg-[#222C32] border-b border-[#222C32] transition-colors hover:cursor-pointer">
 
             <img
-              src="https://img.freepik.com/foto-gratis/retrato-joven-sonriente-gafas_171337-4842.jpg"
+              src="https://img.freepik.com/foto-gratis/primer-disparo-hombre-guapo-sonriendo_181624-41237.jpg"
               className="w-10 h-10 object-cover rounded-full mt-6"
             />
             <div className="flex-1 flex justify-between">
@@ -66,7 +66,7 @@ function App() {
           <div className="p-4 flex items-center gap-4 hover:bg-[#222C32] border-b border-[#222C32] transition-colors hover:cursor-pointer">
 
             <img
-              src="https://img.freepik.com/foto-gratis/retrato-joven-sonriente-gafas_171337-4842.jpg"
+              src="https://img.freepik.com/foto-gratis/retrato-joven-rubio-mujer_273609-12060.jpg"
               className="w-10 h-10 object-cover rounded-full mt-6"
             />
             <div className="flex-1 flex justify-between">
@@ -80,7 +80,7 @@ function App() {
           <div className="p-4 flex items-center gap-4 hover:bg-[#222C32] border-b border-[#222C32] transition-colors hover:cursor-pointer">
 
             <img
-              src="https://img.freepik.com/foto-gratis/retrato-joven-sonriente-gafas_171337-4842.jpg"
+              src="https://img.freepik.com/foto-gratis/feliz-optimista-guapo-gerente-ventas-latina-apuntando-lado-mirando-camara_1262-12679.jpg"
               className="w-10 h-10 object-cover rounded-full mt-6"
             />
             <div className="flex-1 flex justify-between">
