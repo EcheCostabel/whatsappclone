@@ -46,8 +46,8 @@ function App() {
             <div className="flex-1 flex justify-between">
               <div>
               <h1>Flor</h1>
-              <p className="text-gray-500 text-sm">
-                <RiCheckDoubleFill />
+              <p className="text-gray-500 text-sm flex items-center gap-2">
+                <RiCheckDoubleFill className="text-lg"/>
                 Lorem ipsum dolor sit, amet... 
               </p>
               </div>
@@ -63,8 +63,8 @@ function App() {
             <div className="flex-1 flex justify-between">
               <div>
               <h1>Flor</h1>
-              <p className="text-gray-500 text-sm">
-                <RiCheckDoubleFill />
+              <p className="text-gray-500 text-sm flex items-center gap-2">
+                <RiCheckDoubleFill className="text-lg"/>
                 Lorem ipsum dolor sit, amet... 
               </p>
               </div>
@@ -80,8 +80,8 @@ function App() {
             <div className="flex-1 flex justify-between">
               <div>
               <h1>Flor</h1>
-              <p className="text-gray-500 text-sm">
-                <RiCheckDoubleFill />
+              <p className="text-gray-500 text-sm flex items-center gap-2">
+                <RiCheckDoubleFill className="text-lg" />
                 Lorem ipsum dolor sit, amet... 
               </p>
               </div>
@@ -108,7 +108,11 @@ function App() {
 
         </div>
       </div>
-      <div className="xl:col-span-3">Hola 2</div>
+      <div className="xl:col-span-3">
+        <header>Header</header>
+        <main>Historial de mensajes</main>
+        <div>Enviar mensaje</div>
+      </div>
     </div>
   );
 }
