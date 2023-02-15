@@ -2,10 +2,10 @@ import { RiChatPollLine, RiLoader3Line, RiMore2Fill, RiSearchLine } from "react-
 
 function App() {
   return (
-    <div className="min-h-screen grid grid-cols-1 xl:grid-cols-4 bg-[#0B131A] text-gray-300">
-      <div className="bg-[#1B2831] flex flex-col gap-10">
-        <div className="p-4 h-[10vh]">
-          <div className="flex items-center justify-between">
+    <div className="min-h-screen grid grid-cols-1 xl:grid-cols-4 text-gray-300">
+      <div className="bg-[#1B2831] flex flex-col">
+        <div className="p-4 h-[15vh]">
+          <div className="flex items-center justify-between mb-4">
             <div>
               <img
                 src="https://img.freepik.com/foto-gratis/retrato-joven-sonriente-gafas_171337-4842.jpg"
@@ -21,11 +21,14 @@ function App() {
           <form className="w-full">
             <div className="relative">
               <RiSearchLine className="absolute top-1/2 -translate-y-1/2 left-4"/>
-              <input className="bg-[#222C32] w-full rounded-full py-3 pl-10 pr-4 outline-none" />
+              <input 
+              className="bg-[#222C32] w-full rounded-full py-3 pl-10 pr-4 outline-none" 
+              placeholder="Buscar o empezar un chat nuevo"
+              />
             </div>
           </form>
         </div>
-        <div className="h-[90vh] overflow-y-scroll">Contacts</div>
+        <div className="h-[85vh] overflow-y-scroll">Contacts</div>
       </div>
       <div className="xl:col-span-3">Hola 2</div>
     </div>
