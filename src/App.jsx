@@ -44,7 +44,7 @@ function App() {
             <div className="flex-1 flex justify-between">
               <div>
               <h1>Flor</h1>
-              <p className="text-gray-500 text-sm">Lorem ipsum dolor sit, amet consect... </p>
+              <p className="text-gray-500 text-sm">Lorem ipsum dolor sit, amet... </p>
               </div>
               <div className="text-sm text-gray-500">14:21</div>
             </div>
@@ -58,11 +58,40 @@ function App() {
             <div className="flex-1 flex justify-between">
               <div>
               <h1>Flor</h1>
-              <p className="text-gray-500 text-sm">Lorem ipsum dolor sit, amet consect... </p>
+              <p className="text-gray-500 text-sm">Lorem ipsum dolor sit, amet... </p>
               </div>
               <div className="text-sm text-gray-500">14:21</div>
             </div>
           </div>
+          <div className="p-4 flex items-center gap-4 hover:bg-[#222C32] border-b border-[#222C32] transition-colors hover:cursor-pointer">
+
+            <img
+              src="https://img.freepik.com/foto-gratis/retrato-joven-sonriente-gafas_171337-4842.jpg"
+              className="w-10 h-10 object-cover rounded-full mt-6"
+            />
+            <div className="flex-1 flex justify-between">
+              <div>
+              <h1>Flor</h1>
+              <p className="text-gray-500 text-sm">Lorem ipsum dolor sit, amet... </p>
+              </div>
+              <div className="text-sm text-gray-500">Ayer</div>
+            </div>
+          </div>
+          <div className="p-4 flex items-center gap-4 hover:bg-[#222C32] border-b border-[#222C32] transition-colors hover:cursor-pointer">
+
+            <img
+              src="https://img.freepik.com/foto-gratis/retrato-joven-sonriente-gafas_171337-4842.jpg"
+              className="w-10 h-10 object-cover rounded-full mt-6"
+            />
+            <div className="flex-1 flex justify-between">
+              <div>
+              <h1>Flor</h1>
+              <p className="text-gray-500 text-sm">Lorem ipsum dolor sit, amet... </p>
+              </div>
+              <div className="text-sm text-gray-500">Ayer</div>
+            </div>
+          </div>
+
         </div>
       </div>
       <div className="xl:col-span-3">Hola 2</div>
