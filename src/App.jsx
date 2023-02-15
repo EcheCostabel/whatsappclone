@@ -3,6 +3,8 @@ import {
   RiLoader3Line,
   RiMore2Fill,
   RiSearchLine,
+  RiCheckDoubleFill,
+  RiCamera2Fill
 } from "react-icons/ri";
 
 function App() {
@@ -44,7 +46,10 @@ function App() {
             <div className="flex-1 flex justify-between">
               <div>
               <h1>Flor</h1>
-              <p className="text-gray-500 text-sm">Lorem ipsum dolor sit, amet... </p>
+              <p className="text-gray-500 text-sm">
+                <RiCheckDoubleFill />
+                Lorem ipsum dolor sit, amet... 
+              </p>
               </div>
               <div className="text-sm text-gray-500">14:21</div>
             </div>
@@ -58,7 +63,10 @@ function App() {
             <div className="flex-1 flex justify-between">
               <div>
               <h1>Flor</h1>
-              <p className="text-gray-500 text-sm">Lorem ipsum dolor sit, amet... </p>
+              <p className="text-gray-500 text-sm">
+                <RiCheckDoubleFill />
+                Lorem ipsum dolor sit, amet... 
+              </p>
               </div>
               <div className="text-sm text-gray-500">14:21</div>
             </div>
@@ -72,7 +80,10 @@ function App() {
             <div className="flex-1 flex justify-between">
               <div>
               <h1>Flor</h1>
-              <p className="text-gray-500 text-sm">Lorem ipsum dolor sit, amet... </p>
+              <p className="text-gray-500 text-sm">
+                <RiCheckDoubleFill />
+                Lorem ipsum dolor sit, amet... 
+              </p>
               </div>
               <div className="text-sm text-gray-500">Ayer</div>
             </div>
@@ -86,7 +97,10 @@ function App() {
             <div className="flex-1 flex justify-between">
               <div>
               <h1>Flor</h1>
-              <p className="text-gray-500 text-sm">Lorem ipsum dolor sit, amet... </p>
+              <p className="text-gray-500 text-sm  flex items-center gap-2">
+              <RiCheckDoubleFill className="text-lg text-cyan-500" /> <RiCamera2Fill />
+                Foto 
+              </p>
               </div>
               <div className="text-sm text-gray-500">Ayer</div>
             </div>
