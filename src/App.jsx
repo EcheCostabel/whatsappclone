@@ -18,7 +18,7 @@ function App() {
           <div className="flex items-center justify-between mb-4">
             <div>
               <img
-                src="https://img.freepik.com/foto-gratis/retrato-joven-sonriente-gafas_171337-4842.jpg"
+                src="https://img.freepik.com/foto-gratis/feliz-optimista-guapo-gerente-ventas-latina-apuntando-lado-mirando-camara_1262-12679.jpg"
                 className="w-10 h-10 object-cover rounded-full"
               />
             </div>
@@ -39,7 +39,7 @@ function App() {
           </form>
         </div>
         {/* Contacts  */}
-        <div className="h-[85vh] overflow-y-scroll mt-5">
+        <div className="h-[85vh]  mt-5">
           <div className="p-4 flex items-center gap-4 bg-[#222C32] border-b border-[#222C32] hover:cursor-pointer">
             <img
               src="https://img.freepik.com/foto-gratis/retrato-joven-sonriente-gafas_171337-4842.jpg"
@@ -63,7 +63,7 @@ function App() {
             />
             <div className="flex-1 flex justify-between">
               <div>
-                <h1>Flor</h1>
+                <h1>Juan</h1>
                 <p className="text-gray-500 text-sm flex items-center gap-2">
                   <RiCheckDoubleFill className="text-lg" />
                   Lorem ipsum dolor sit, amet...
@@ -79,7 +79,7 @@ function App() {
             />
             <div className="flex-1 flex justify-between">
               <div>
-                <h1>Flor</h1>
+                <h1>Joa</h1>
                 <p className="text-gray-500 text-sm flex items-center gap-2">
                   <RiCheckDoubleFill className="text-lg" />
                   Lorem ipsum dolor sit, amet...
@@ -95,7 +95,7 @@ function App() {
             />
             <div className="flex-1 flex justify-between">
               <div>
-                <h1>Flor</h1>
+                <h1>Ignacio</h1>
                 <p className="text-gray-500 text-sm  flex items-center gap-2">
                   <RiCheckDoubleFill className="text-lg text-cyan-500" />{" "}
                   <RiCamera2Fill />
@@ -125,7 +125,7 @@ function App() {
             <RiMore2Fill className="hover:cursor-pointer"/>
           </div>
         </header>
-        <main className="h-[82vh] overflow-y-scroll">
+        <main className="h-[82vh] ">
           Historial de mensajes
         </main>
         <div className="h-[8vh] text-gray-500 flex items-center bg-[#1B2831] p-4">
