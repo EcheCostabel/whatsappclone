@@ -32,7 +32,7 @@ function App() {
             <div className="relative">
               <RiSearchLine className="absolute top-1/2 -translate-y-1/2 left-4" />
               <input
-                className="bg-[#222C32] w-full rounded-full py-3 pl-10 pr-4 outline-none"
+                className="bg-[#0B131A] w-full rounded-full py-3 pl-10 pr-4 outline-none"
                 placeholder="Buscar o empezar un chat nuevo"
               />
             </div>
@@ -125,18 +125,18 @@ function App() {
             <RiMore2Fill className="hover:cursor-pointer"/>
           </div>
         </header>
-        <main className="h-[85vh] overflow-y-scroll">
+        <main className="h-[82vh] overflow-y-scroll">
           Historial de mensajes
         </main>
-        <div className="h-[5vh] text-gray-500 flex items-center">
-          <div className="w-1/12 flex justify-center" >
-          <RiEmotionHappyLine />
+        <div className="h-[8vh] text-gray-500 flex items-center bg-[#1B2831] p-4">
+          <div className="w-1/12 flex justify-center text-2xl" >
+          <RiEmotionHappyLine className="hover:cursor-pointer" />
           </div>
           <form className="w-10/12">
-            <input type='text' className="bg-red-300 w-full" />
+            <input type='text' className="bg-[#0B131A] w-full outline-none py-2 px-6 rounded-full text-gray-300" placeholder="Escriba el mensaje aqui" />
           </form>
-          <div className="w-1/12 flex justify-center">
-          <RiMicFill />
+          <div className="w-1/12 flex justify-center text-2xl">
+          <RiMicFill className="hover:cursor-pointer"/>
           </div>
         </div>
       </div>
