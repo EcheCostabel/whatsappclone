@@ -5,7 +5,9 @@ import {
   RiSearchLine,
   RiCheckDoubleFill,
   RiCamera2Fill,
-  RiLinkM
+  RiLinkM,
+  RiEmotionHappyLine,
+  RiMicFill
 } from "react-icons/ri";
 
 function App() {
@@ -126,7 +128,17 @@ function App() {
         <main className="h-[85vh] overflow-y-scroll">
           Historial de mensajes
         </main>
-        <div className="h-[5vh]">Enviar mensaje</div>
+        <div className="h-[5vh] text-gray-500 flex items-center">
+          <div className="w-1/12 flex justify-center" >
+          <RiEmotionHappyLine />
+          </div>
+          <form className="w-10/12">
+            <input type='text' className="bg-red-300 w-full" />
+          </form>
+          <div className="w-1/12 flex justify-center">
+          <RiMicFill />
+          </div>
+        </div>
       </div>
     </div>
   );
