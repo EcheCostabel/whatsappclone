@@ -109,9 +109,9 @@ function App() {
         </div>
       </div>
       <div className="xl:col-span-3">
-        <header>Header</header>
-        <main>Historial de mensajes</main>
-        <div>Enviar mensaje</div>
+        <header className="h-[10vh] bg-red-300">Header</header>
+        <main className="bg-red-500">Historial de mensajes</main>
+        <div className="bg-red-700">Enviar mensaje</div>
       </div>
     </div>
   );
