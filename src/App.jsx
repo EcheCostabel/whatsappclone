@@ -4,7 +4,8 @@ import {
   RiMore2Fill,
   RiSearchLine,
   RiCheckDoubleFill,
-  RiCamera2Fill
+  RiCamera2Fill,
+  RiLinkM
 } from "react-icons/ri";
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
                 className="w-10 h-10 object-cover rounded-full"
               />
             </div>
-            <div className="flex items-center gap-4 text-2xl">
+            <div className="flex items-center gap-4 text-2xl text-gray-500">
               <RiLoader3Line className="hover:cursor-pointer" />
               <RiChatPollLine className="hover:cursor-pointer" />
               <RiMore2Fill className="hover:cursor-pointer" />
@@ -37,81 +38,95 @@ function App() {
         </div>
         {/* Contacts  */}
         <div className="h-[85vh] overflow-y-scroll mt-5">
-          <div  className="p-4 flex items-center gap-4 bg-[#222C32] border-b border-[#222C32] hover:cursor-pointer">
-
+          <div className="p-4 flex items-center gap-4 bg-[#222C32] border-b border-[#222C32] hover:cursor-pointer">
             <img
               src="https://img.freepik.com/foto-gratis/retrato-joven-sonriente-gafas_171337-4842.jpg"
               className="w-10 h-10 object-cover rounded-full mt-6"
             />
             <div className="flex-1 flex justify-between">
               <div>
-              <h1>Flor</h1>
-              <p className="text-gray-500 text-sm flex items-center gap-2">
-                <RiCheckDoubleFill className="text-lg"/>
-                Lorem ipsum dolor sit, amet... 
-              </p>
+                <h1>Flor</h1>
+                <p className="text-gray-500 text-sm flex items-center gap-2">
+                  <RiCheckDoubleFill className="text-lg" />
+                  Lorem ipsum dolor sit, amet...
+                </p>
               </div>
               <div className="text-sm text-gray-500">14:21</div>
             </div>
           </div>
           <div className="p-4 flex items-center gap-4 hover:bg-[#222C32] border-b border-[#222C32] transition-colors hover:cursor-pointer">
-
             <img
               src="https://img.freepik.com/foto-gratis/primer-disparo-hombre-guapo-sonriendo_181624-41237.jpg"
               className="w-10 h-10 object-cover rounded-full mt-6"
             />
             <div className="flex-1 flex justify-between">
               <div>
-              <h1>Flor</h1>
-              <p className="text-gray-500 text-sm flex items-center gap-2">
-                <RiCheckDoubleFill className="text-lg"/>
-                Lorem ipsum dolor sit, amet... 
-              </p>
+                <h1>Flor</h1>
+                <p className="text-gray-500 text-sm flex items-center gap-2">
+                  <RiCheckDoubleFill className="text-lg" />
+                  Lorem ipsum dolor sit, amet...
+                </p>
               </div>
               <div className="text-sm text-gray-500">14:21</div>
             </div>
           </div>
           <div className="p-4 flex items-center gap-4 hover:bg-[#222C32] border-b border-[#222C32] transition-colors hover:cursor-pointer">
-
             <img
               src="https://img.freepik.com/foto-gratis/retrato-joven-rubio-mujer_273609-12060.jpg"
               className="w-10 h-10 object-cover rounded-full mt-6"
             />
             <div className="flex-1 flex justify-between">
               <div>
-              <h1>Flor</h1>
-              <p className="text-gray-500 text-sm flex items-center gap-2">
-                <RiCheckDoubleFill className="text-lg" />
-                Lorem ipsum dolor sit, amet... 
-              </p>
+                <h1>Flor</h1>
+                <p className="text-gray-500 text-sm flex items-center gap-2">
+                  <RiCheckDoubleFill className="text-lg" />
+                  Lorem ipsum dolor sit, amet...
+                </p>
               </div>
               <div className="text-sm text-gray-500">Ayer</div>
             </div>
           </div>
           <div className="p-4 flex items-center gap-4 hover:bg-[#222C32] border-b border-[#222C32] transition-colors hover:cursor-pointer">
-
             <img
               src="https://img.freepik.com/foto-gratis/feliz-optimista-guapo-gerente-ventas-latina-apuntando-lado-mirando-camara_1262-12679.jpg"
               className="w-10 h-10 object-cover rounded-full mt-6"
             />
             <div className="flex-1 flex justify-between">
               <div>
-              <h1>Flor</h1>
-              <p className="text-gray-500 text-sm  flex items-center gap-2">
-              <RiCheckDoubleFill className="text-lg text-cyan-500" /> <RiCamera2Fill />
-                Foto 
-              </p>
+                <h1>Flor</h1>
+                <p className="text-gray-500 text-sm  flex items-center gap-2">
+                  <RiCheckDoubleFill className="text-lg text-cyan-500" />{" "}
+                  <RiCamera2Fill />
+                  Foto
+                </p>
               </div>
               <div className="text-sm text-gray-500">Ayer</div>
             </div>
           </div>
-
         </div>
       </div>
       <div className="xl:col-span-3">
-        <header className="h-[10vh] bg-red-300">Header</header>
-        <main className="bg-red-500">Historial de mensajes</main>
-        <div className="bg-red-700">Enviar mensaje</div>
+        <header className="h-[10vh] bg-[#1B2831] p-4 flex items-center justify-between">
+          <div className="flex items-center gap-4">
+            <img
+              src="https://img.freepik.com/foto-gratis/retrato-joven-sonriente-gafas_171337-4842.jpg"
+              className="w-10 h-10 object-cover rounded-full"
+            />
+            <div>
+              <h1>Flor</h1>
+              <span className="text-gray-500 text-sm">En Linea</span>
+            </div>
+          </div>
+          <div className="flex items-center gap-8 text-2xl text-gray-500">
+            <RiSearchLine className="hover:cursor-pointer"/>
+            <RiLinkM className="hover:cursor-pointer"/>
+            <RiMore2Fill className="hover:cursor-pointer"/>
+          </div>
+        </header>
+        <main className="h-[85vh] overflow-y-scroll">
+          Historial de mensajes
+        </main>
+        <div className="h-[5vh]">Enviar mensaje</div>
       </div>
     </div>
   );
