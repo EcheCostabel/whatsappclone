@@ -125,8 +125,11 @@ function App() {
             <RiMore2Fill className="hover:cursor-pointer"/>
           </div>
         </header>
-        <main className="h-[82vh] p-4">
-          <div className="bg-[#1B2831] py-1 px-4 rounded-tr-lg rounded-br-lg rounded-bl-lg">
+        <main className="h-[82vh] p-4 flex flex-col">
+          <div className="bg-[#1B2831] py-1 px-4 rounded-tr-xl rounded-br-xl rounded-bl-xl float-left mb-2 max-w-2xl">
+            <p>asdas</p>
+          </div><br />
+          <div className="bg-[#1B2831] py-1 px-4 rounded-tr-xl rounded-br-xl rounded-bl-xl float-left max-w-2xl">
             <p>asd</p>
           </div>
         </main>
