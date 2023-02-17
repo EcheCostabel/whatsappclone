@@ -125,8 +125,10 @@ function App() {
             <RiMore2Fill className="hover:cursor-pointer"/>
           </div>
         </header>
-        <main className="h-[82vh] ">
-          Historial de mensajes
+        <main className="h-[82vh] p-4">
+          <div className="bg-[#1B2831] py-1 px-4 rounded-tr-lg rounded-br-lg rounded-bl-lg">
+            <p>asd</p>
+          </div>
         </main>
         <div className="h-[8vh] text-gray-500 flex items-center bg-[#1B2831] p-4">
           <div className="w-1/12 flex justify-center text-2xl" >
@@ -142,6 +144,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;
