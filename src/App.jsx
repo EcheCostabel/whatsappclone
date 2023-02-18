@@ -125,15 +125,15 @@ function App() {
             <RiMore2Fill className="hover:cursor-pointer"/>
           </div>
         </header>
-        <main className="h-[82vh] p-4 flex flex-col">
-          <div className="bg-[#1B2831] py-1 px-4 rounded-tr-xl rounded-br-xl rounded-bl-xl float-left w-min mb-2">
+        <main className="h-[82vh] p-4">
+          <div className="bg-[#1B2831] py-1 px-4 rounded-tr-xl rounded-br-xl rounded-bl-xl w-min mb-2">
             <p>asdas</p>
           </div>
-          <div className="bg-[#1B2831] py-1 px-4 rounded-tr-xl rounded-br-xl rounded-bl-xl float-left mb-2 flex w-1/2">
+          <div className="bg-[#1B2831] py-1 px-4 rounded-tr-xl rounded-br-xl rounded-bl-xl mb-2 flex w-1/2">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam soluta cumque, nesciunt error expedita sed fugit? Sequi at molestias et facere repellat nobis laboriosam iste deleniti aut explicabo cumque, qui doloribus aliquid vero repudiandae, dignissimos voluptas accusantium alias consequuntur libero pariatur. Vitae assumenda, a est sunt dolor exercitationem quas quidem!</p>
           </div>
-          <div className="bg-[#054640] py-1 px-4 rounded-tl-xl rounded-bl-xl rounded-br-xl float-right mb-2 flex w-1/2">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam soluta cumque, nesciunt error expedita sed fugit? Sequi at molestias et facere repellat nobis laboriosam iste deleniti aut explicabo cumque, qui doloribus aliquid vero repudiandae, dignissimos voluptas accusantium alias consequuntur libero pariatur. Vitae assumenda, a est sunt dolor exercitationem quas quidem!</p>
+          <div className="bg-[#054640] py-1 px-4 rounded-tl-xl rounded-bl-xl rounded-br-xl mb-2 flex w-1/2 float-right">
+            <p className="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam soluta cumque, nesciunt error expedita sed fugit? Sequi at molestias et facere repellat nobis laboriosam iste deleniti aut explicabo cumque, qui doloribus aliquid vero repudiandae, dignissimos voluptas accusantium alias consequuntur libero pariatur. Vitae assumenda, a est sunt dolor exercitationem quas quidem!</p>
           </div>
         </main>
         <div className="h-[8vh] text-gray-500 flex items-center bg-[#1B2831] p-4">
