@@ -126,13 +126,13 @@ function App() {
           </div>
         </header>
         <main className="h-[82vh] p-4">
-          <div className="bg-[#1B2831] py-1 px-4 rounded-tr-xl rounded-br-xl rounded-bl-xl w-min mb-2">
+          <div className="bg-[#1B2831] py-1 px-4 rounded-tr-xl rounded-br-xl rounded-bl-xl w-min mb-3">
             <p>asdas</p>
           </div>
-          <div className="bg-[#1B2831] py-1 px-4 rounded-tr-xl rounded-br-xl rounded-bl-xl mb-2 flex xl:w-1/2">
+          <div className="bg-[#1B2831] py-1 px-4 rounded-tr-xl rounded-br-xl rounded-bl-xl mb-3 w-5/6 flex xl:w-1/2">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam soluta cumque, nesciunt error expedita sed fugit? Sequi at molestias et facere repellat nobis laboriosam iste deleniti aut explicabo cumque, qui doloribus aliquid vero repudiandae, dignissimos voluptas accusantium alias consequuntur libero pariatur. Vitae assumenda, a est sunt dolor exercitationem quas quidem!</p>
           </div>
-          <div className="bg-[#054640] py-1 px-4 rounded-tl-xl rounded-bl-xl rounded-br-xl mb-2 flex xl:w-1/2 float-right">
+          <div className="bg-[#054640] py-1 px-4 rounded-tl-xl rounded-bl-xl rounded-br-xl mb-3 w-5/6 flex xl:w-1/2 float-right">
             <p className="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam soluta cumque, nesciunt error expedita sed fugit? Sequi at molestias et facere repellat nobis laboriosam iste deleniti aut explicabo cumque, qui doloribus aliquid vero repudiandae, dignissimos voluptas accusantium alias consequuntur libero pariatur. Vitae assumenda, a est sunt dolor exercitationem quas quidem!</p>
           </div>
         </main>
